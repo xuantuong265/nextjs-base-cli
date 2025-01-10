@@ -1,0 +1,14 @@
+{
+  "name": "nextjs-base-cli",
+  "version": "1.0.0",
+  "description": "A CLI to create new projects based on a predefined GitHub template",
+  "type": "module",
+  "bin": {
+    "nextjs-base-cli": "index.js"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "simple-git": "^3.19.0",
+    "fs-extra": "^11.1.1"
+  }
+}
